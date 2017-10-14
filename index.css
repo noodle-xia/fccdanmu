@@ -1,0 +1,17 @@
+/* Code tidied up by ScrapBook */
+body, html, span, div, input, button, video, p { margin: 0px ; padding: 0px; }
+body {  }
+.container { text-align: center; width: 70%; min-width: 320px; margin: 10px auto 0px; }
+.screen { position: relative; text-align: left; width: 100%; height: 100%; min-width: 320px; border: 5px solid rgba(0, 230, 204, 0.86); margin-bottom: 10px; overflow: hidden;
+    border-radius: 15px;  box-shadow: 10px 10px 5px #888888;}
+.text { margin-bottom: 10px; }
+.control { display: none; }
+#text { width: 300px; height: 35px; border: 1px solid #00a288; border-radius: 10px; padding-left: 10px; box-sizing: border-box; outline: medium none; }
+.dm span { position: absolute; font-weight: bolder; white-space: nowrap; z-index: 2147483647; }
+.buttons { width: 228px; margin: auto; }
+#submit, #clean { float: left; margin-left: 10px; width: 100px; height: 30px; background-color: #00bb9f; border-radius: 10px; border: 1px solid #00c7ad; outline: medium none; cursor: pointer; box-sizing: border-box; }
+#submit:hover, #clean:hover { background-color: #00a288; border-color: #00a288; }
+#submit:active, #clean:active { padding: 2px 0px 0px 2px; }
+.screen video { width: 100%; height: 100%; }
+.dm { width: 100%; height: 100%; }
+.hack { display: none; }
